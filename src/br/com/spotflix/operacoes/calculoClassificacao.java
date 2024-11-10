@@ -2,7 +2,7 @@ package br.com.spotflix.operacoes;
 
 import br.com.spotflix.modelos.Audio;
 
-public class calculoClassificacao {
+public class CalculoClassificacao {
 	
 	public float porcentagemAprovacao(Audio audio) {
 		return (audio.getCurtidas()*100/audio.getTotalReproducoes());

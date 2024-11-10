@@ -1,14 +1,14 @@
 package br.com.spotlfix;
 import br.com.spotflix.modelos.Musica;
 import br.com.spotflix.modelos.Podcast;
-import br.com.spotflix.operacoes.calculoClassificacao;
+import br.com.spotflix.operacoes.CalculoClassificacao;
 
 public class Principal {
 
 	public static void main(String[] args) {
 		Musica musica1 = new Musica();
 		Podcast podcast1 = new Podcast();
-		calculoClassificacao classificador = new calculoClassificacao();
+		CalculoClassificacao classificador = new CalculoClassificacao();
 		
 		musica1.setTitulo("Like Him");
 		musica1.setAlbum("CHROMAKOPIA");

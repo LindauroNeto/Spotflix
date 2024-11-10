@@ -52,17 +52,18 @@ public class Audio {
 	
 	public String estrelas() {
 		String x = "*";
-		if (this.getClassificacao() < 0 && this.getClassificacao() >= 0 && this.getClassificacao() < 1) {
+		int y = this.getClassificacao();
+		if (y < 0 && y >= 0 && y < 1) {
 			x = "*";
-		} else if (this.getClassificacao() >= 1 && this.getClassificacao() < 2) {
+		} else if (y >= 1 && y < 2) {
 			x = "⭐";
-		} else if (this.getClassificacao() >= 2 && this.getClassificacao() < 3) {
+		} else if (y >= 2 && y < 3) {
 			x = "⭐⭐";
-		} else if (this.getClassificacao() >= 3 && this.getClassificacao() < 4) {
+		} else if (y >= 3 && y < 4) {
 			x = "⭐⭐⭐";
-		} else if (this.getClassificacao() >= 4 && this.getClassificacao() < 5) {
+		} else if (y >= 4 && y < 5) {
 			x = "⭐⭐⭐⭐";
-		} else if (this.getClassificacao() >= 5) {
+		} else if (y >= 5) {
 			x = "⭐⭐⭐⭐⭐";
 		}
 		return x;

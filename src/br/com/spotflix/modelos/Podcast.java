@@ -56,6 +56,9 @@ public class Podcast extends Audio implements ApresentacaoDados {
 		
 	}
 
-	
+	@Override
+	public String toString() {
+		return "Podcast: " + this.getTitulo() + " | " + this.getNomeDoPodcast() + ".";
+	}
 
 }

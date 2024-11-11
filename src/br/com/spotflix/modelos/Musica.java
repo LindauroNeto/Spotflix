@@ -46,6 +46,11 @@ public class Musica extends Audio implements ApresentacaoDados{
 		
 	}
 	
+	@Override
+	public String toString() {
+		return "Musica: " + this.getTitulo() + " - " + this.getArtista() + " (" + this.getAlbum() + ").";
+	}
+	
 	
 
 }
